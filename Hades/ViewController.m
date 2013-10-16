@@ -5,6 +5,7 @@
 //  Created by Inderjit Singh on 14/10/2013.
 //  Copyright (c) 2013 Inderjit Singh. All rights reserved.
 //
+//
 
 #import "ViewController.h"
 #import "Recording.h"
@@ -15,12 +16,11 @@
 
 @implementation ViewController
 
-NSString* const recording[] = {@"REC 1", @"REC 2", @"REC 3", @"REC 4", @"REC 5", @"REC 6", @"REC 7", @"REC 8", @"REC 9", @"REC 10", @"REC 11", @"REC 12"};
+NSString* const recording[] = {@"REC 1", @"REC 2", @"REC 3_4", @"REC 5", @"REC 6", @"REC 7", @"REC 8", @"REC 9", @"REC 10", @"REC 11_1", @"REC 11_2", @"REC 12"};
 NSString* const paragraph[] = {
     @"All these here once walked round Dublin. Faithful departed.",
     @"If little Rudy had lived. See him grow up. Hear his voice in the house.",
     @"Sympathetic- human man he is. Intelligent. Always a good word to say.",
-    @"That afternoon of the inquest. Boots giving evidence. Thought he was asleep first.",
     @"Tomorrow is killing day. For Liverpool probably. Roast beef for old England.",
     @"Upset. A coffin bumped out on to the road. Burst open.",
     @"Murder. They love reading about it.",
@@ -28,6 +28,7 @@ NSString* const paragraph[] = {
     @"Father …. Coffey.I knew his name was like a coffin.",
     @"Who was telling me? Mervyn Brown.",
     @"The resurrection and the life? Once you are dead you are dead.",
+    @"Then every fellow mousing them around for his liver and his lights and the rest of his traps.",
     @"Who is that lankylooking galoot over there in the macintosh? Now who is he I'd like to know?"
 };
 - (void)viewDidLoad
