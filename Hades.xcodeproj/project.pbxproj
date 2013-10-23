@@ -24,6 +24,9 @@
 		A90BE357180C03FD00A9BD93 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BE354180C03FD00A9BD93 /* prev.png */; };
 		A90BE35A180C15F600A9BD93 /* Recording.m in Sources */ = {isa = PBXBuildFile; fileRef = A90BE359180C15F600A9BD93 /* Recording.m */; };
 		A90BE35C180C265C00A9BD93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90BE35B180C265C00A9BD93 /* AVFoundation.framework */; };
+		A97E47E318183C2B002083C4 /* REC 3_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97E47E218183C2B002083C4 /* REC 3_4.mp3 */; };
+		A97E47E618183D61002083C4 /* REC 11_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97E47E418183D61002083C4 /* REC 11_1.mp3 */; };
+		A97E47E718183D61002083C4 /* REC 11_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97E47E518183D61002083C4 /* REC 11_2.mp3 */; };
 		A9B74349180BFC95002C6E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B74348180BFC95002C6E24 /* Foundation.framework */; };
 		A9B7434B180BFC95002C6E24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B7434A180BFC95002C6E24 /* CoreGraphics.framework */; };
 		A9B7434D180BFC95002C6E24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B7434C180BFC95002C6E24 /* UIKit.framework */; };
@@ -69,6 +72,9 @@
 		A90BE358180C15F600A9BD93 /* Recording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recording.h; sourceTree = "<group>"; };
 		A90BE359180C15F600A9BD93 /* Recording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recording.m; sourceTree = "<group>"; };
 		A90BE35B180C265C00A9BD93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A97E47E218183C2B002083C4 /* REC 3_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "REC 3_4.mp3"; sourceTree = "<group>"; };
+		A97E47E418183D61002083C4 /* REC 11_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "REC 11_1.mp3"; sourceTree = "<group>"; };
+		A97E47E518183D61002083C4 /* REC 11_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "REC 11_2.mp3"; sourceTree = "<group>"; };
 		A9B74345180BFC95002C6E24 /* Hades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B74348180BFC95002C6E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9B7434A180BFC95002C6E24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +134,9 @@
 		A90BE339180C00CC00A9BD93 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				A97E47E418183D61002083C4 /* REC 11_1.mp3 */,
+				A97E47E518183D61002083C4 /* REC 11_2.mp3 */,
+				A97E47E218183C2B002083C4 /* REC 3_4.mp3 */,
 				A90BE33A180C00CC00A9BD93 /* REC 1.mp3 */,
 				A90BE33B180C00CC00A9BD93 /* REC 10.mp3 */,
 				A90BE33C180C00CC00A9BD93 /* REC 11.mp3 */,
@@ -298,11 +307,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E47E718183D61002083C4 /* REC 11_2.mp3 in Resources */,
 				A90BE34F180C00CC00A9BD93 /* REC 7.mp3 in Resources */,
 				A9B74361180BFC95002C6E24 /* Images.xcassets in Resources */,
 				A90BE34E180C00CC00A9BD93 /* REC 6.mp3 in Resources */,
+				A97E47E318183C2B002083C4 /* REC 3_4.mp3 in Resources */,
 				A90BE347180C00CC00A9BD93 /* REC 10.mp3 in Resources */,
 				A90BE356180C03FD00A9BD93 /* play.png in Resources */,
+				A97E47E618183D61002083C4 /* REC 11_1.mp3 in Resources */,
 				A9B74353180BFC95002C6E24 /* InfoPlist.strings in Resources */,
 				A90BE34B180C00CC00A9BD93 /* REC 3.mp3 in Resources */,
 				A90BE346180C00CC00A9BD93 /* REC 1.mp3 in Resources */,
